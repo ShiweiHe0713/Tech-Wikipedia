@@ -1,0 +1,9 @@
+- What is route in backend?
+**Routes are used to define the API endpoints of your application and specify how incoming requests should be handled.** In backend development, a route is a URL pattern that corresponds to a specific endpoint in your application. Routes define the paths that clients can access to interact with your server. Each route typically corresponds to a specific HTTP method (e.g., GET, POST, PUT, DELETE) and is associated with a handler function that is executed when a request is made to that route.
+
+- What is middleware?
+Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. They can modify the request or response objects, terminate the request-response cycle by sending a response, or pass control to the next middleware function in the stack by calling the next() function. Middleware functions are used to modularize request processing logic and apply common functionality across multiple routes in an application.
+  - **Middleware functions can perform tasks such as logging, authentication, authorization, input validation, error handling, and more.** 
+
+- What is controller?
+Controller: In the context of MVC (Model-View-Controller) architecture, controllers are responsible for handling incoming requests, interacting with the model layer to retrieve or manipulate data, and returning appropriate responses to the client. Controllers typically contain methods (or controller actions) that correspond to different routes or API endpoints. Each controller action is responsible for performing a specific operation, such as fetching data from the database, updating records, or rendering views. Controllers help organize request handling logic and separate concerns between different parts of the application.
